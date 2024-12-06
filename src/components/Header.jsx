@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex items-center text-indigo-600">
           <CheckSquare className="mr-2" size={28} />
-          <span className="hidden sm:inline">Task Master</span>
+          <span className="hidden sm:inline">Spiralist.Ai</span>
         </Link>
         <nav className="flex items-center space-x-4">
           <Link to="/" className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">Tasks</Link>
